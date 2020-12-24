@@ -1,0 +1,13 @@
+.cat-item-holder {
+  margin-top: 1rem;
+}
+
+.cat-item {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem 1.5rem;
+}
+
+.cat-item a {
+  text-decoration: none;
+}

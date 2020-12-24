@@ -1,0 +1,13 @@
+<div class="cat-container">
+  <div class="cat-name">{{catData.name}}</div>
+  <div>
+    <img class="cat-img" src="{{catData.img}}">
+  </div>
+  <div>
+    <p>Name: {{catData.name}}</p>
+    <p>Epithets: {{catData.epithets}}</p>
+    <p>Parent 1: <a routerLink="/cat/{{catStruct.parent1Id}}" routerLink="active">{{catStruct.parent1Id}}</a></p>
+    <p>Parent 2: <a routerLink="/cat/{{catStruct.parent2Id}}" routerLink="active">{{catStruct.parent2Id}}</a></p>
+    <p>Lore: {{catData.lore}}</p>
+  </div>
+</div>

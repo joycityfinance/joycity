@@ -1,0 +1,48 @@
+<div class="container">
+  
+  <div class="centered">
+    <div class="header"><span class="cursed-text">BREED</span> new life</div>
+  </div>
+
+  <div class="card">
+    <p>Two cats can 💕 Bang Bang 💕 and breed a new 🐈cat. The new 🐈 will inherit some traits from both parents.</p>
+    <hr>
+    <p><span>Current block: <b>{{blockNumber}}</b></span></p>
+    <p><b>{{numCats}}/{{maxCats}} tomcats new borns</b></p>
+  </div>
+
+  <div class="two-cols">
+    <div class="card">
+      <div class="card-title cat-1">Tom 🐈: <span class="cat-name">{{getName(catLeft)}}</span></div>
+      <hr>
+      <div><img src="{{getImg(catLeft)}}"></div>
+      <div>Unlocks at block: <b>{{getUnlockBlock(catLeft)}}</b></div>
+      <select class="cat-select" [(ngModel)]="catLeft">
+        <option value="" disabled selected>Select cat</option>
+        <option *ngFor="let n of catList" value="{{n.id}}">
+          {{n.name}}
+        </option>
+      </select>
+    </div>
+    <div class="card">
+      <div class="card-title cat-2">Queen 🐈: <span class="cat-name">{{getName(catRight)}}</span></div>
+      <hr>
+      <div><img src="{{getImg(catRight)}}"></div>
+      <div>Unlocks at block: <b>{{getUnlockBlock(catRight)}}</b></div>
+      <select class="cat-select" [(ngModel)]="catRight">
+        <option value="" disabled selected>Select cat</option>
+        <option *ngFor="let n of catList" value="{{n.id}}">
+          {{n.name}}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div class="card">
+    <div>
+      <p><span>💕 Bang Bang 💕 fee: </span> {{spawnFee}} <span class="tcat-ticker">TCAT</span></p>
+      <p><span>Balance: </span> {{tcatBalance}} <span class="tcat-ticker">TCAT</span></p>
+    </div>
+    <button class="breed-button" (click)="breedNewCat()">Breed</button>
+  </div>
+</div>
