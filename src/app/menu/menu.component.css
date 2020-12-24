@@ -27,12 +27,12 @@
   left: 0rem;
   top: 0rem;
   width: 50%;
-  max-width: 20rem;
+  max-width: 15rem;
   display: table;
   border-collapse: collapse;
 }
 .menu-list, .close-button {
-  font-size: 1.75rem;
+  font-size: 1.rem;
   background-color: var(--black);
 } 
 
