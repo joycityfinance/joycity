@@ -6,7 +6,7 @@ import { UtilsService } from '../utils.service';
 import BigNumber from 'bignumber.js';
 
 @Component({
-  selector: 'app-breed',
+  selector: 'app-merge',
   templateUrl: './breed.component.html',
   styleUrls: ['./breed.component.css']
 })
