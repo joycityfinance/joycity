@@ -90,7 +90,7 @@ export class BreedComponent implements OnInit {
     for (let i of catIdList) {
       newCall[i.toString()] = {
         target: this.constants.CAT_BREEDER_ADDRESS,
-        callData: this.contract.CAT_BREEDER.methods.monUnlock(i).encodeABI()
+        callData: this.contract.CAT_BREEDER.methods.catUnlock(i).encodeABI()
       }
     }
     multicallKeys = Object.keys(newCall);
