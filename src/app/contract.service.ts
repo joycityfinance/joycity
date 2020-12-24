@@ -18,27 +18,27 @@ export class ContractService {
     return new this.wallet.web3.eth.Contract(abi, address); 
   }
 
-  public get TCAT() {
+  public get XMON() {
     const abi = require('../assets/abi/ERC20.json');
-    const address = this.constants.TCAT_ADDRESS;
+    const address = this.constants.XMON_ADDRESS;
     return new this.wallet.web3.eth.Contract(abi, address); 
   }
 
-  public get CAT_MINTER() {
-    const abi = require('../assets/abi/CatMinter.json');
-    const address = this.constants.CAT_MINTER_ADDRESS;
+  public get MON_MINTER() {
+    const abi = require('../assets/abi/MonMinter.json');
+    const address = this.constants.MON_MINTER_ADDRESS;
     return new this.wallet.web3.eth.Contract(abi, address); 
   }
 
-  public get CAT_STAKER() {
-    const abi = require('../assets/abi/CatStaker.json');
-    const address = this.constants.CAT_STAKER_ADDRESS;
+  public get MON_STAKER() {
+    const abi = require('../assets/abi/MonStaker.json');
+    const address = this.constants.MON_STAKER_ADDRESS;
     return new this.wallet.web3.eth.Contract(abi, address); 
   }
 
-  public get CAT_BREEDER() {
-    const abi = require('../assets/abi/CatBreeder.json');
-    const address = this.constants.CAT_BREEDER_ADDRESS;
+  public get MON_SPAWNER() {
+    const abi = require('../assets/abi/MonSpawner.json');
+    const address = this.constants.MON_SPAWNER_ADDRESS;
     return new this.wallet.web3.eth.Contract(abi, address); 
   }
 

@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ClaimComponent } from './claim/claim.component';
 import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
-import { BreedComponent } from './breed/breed.component';
-import { AdoptComponent } from './adopt/adopt.component';
-import { CatalogComponent } from './catalog/catalog.component';
-import { CatComponent } from './cat/cat.component';
+import { SpawnComponent } from './spawn/spawn.component';
+import { SummonComponent } from './summon/summon.component';
+import { CollectionComponent } from './collection/collection.component';
+import { MonsterComponent } from './monster/monster.component';
 
 const routes: Routes = [
   {
@@ -14,17 +15,17 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'cat/:id',
-    component: CatComponent
+    path: 'mon/:id',
+    component: MonsterComponent
   },
   {
-    path: 'adopt',
-    component: AdoptComponent,
+    path: 'summon',
+    component: SummonComponent,
     pathMatch: 'full'
   },
   {
-    path: 'breed',
-    component: BreedComponent,
+    path: 'spawn',
+    component: SpawnComponent,
     pathMatch: 'full'
   },
   {
@@ -33,8 +34,13 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'catalog',
-    component: CatalogComponent,
+    path: 'claim',
+    component: ClaimComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'collection',
+    component: CollectionComponent,
     pathMatch: 'full'
   },
   // wildcard

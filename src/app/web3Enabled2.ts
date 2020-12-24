@@ -15,9 +15,9 @@ export class Web3Enabled {
   userAddress: string;
 
   constructor(public web3: Web3) {
-    this.blocknativeAPIKey = '087f0d5f-f8e9-40b7-a41c-745f3a27eafa';
-    this.infuraKey = 'ee87e3f62f744c3aa356a890d442403b';
-    this.portisAPIKey = 'fe2d388-c439-4b13-b1d8-5c782e799b4b';
+    this.blocknativeAPIKey = 'c094a276-3a28-4a57-a468-d61efa51e73c';
+    this.infuraKey = 'eb5ba991ba924ec5b80fd85423fd901f';
+    this.portisAPIKey = '046eaf6b-d838-45d0-b733-ef5ef749fb0f';
     this.networkID = 4;
   }
 

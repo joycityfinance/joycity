@@ -1,0 +1,19 @@
+.mon-container {
+  max-width: 40rem;
+  margin: auto;
+}
+
+.mon-name {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px -2px var(--med-green), -2px 2px var(--pink);
+  margin-bottom: 1rem;
+}
+
+.mon-img {
+  width: 20rem;
+  height: auto;
+  padding: 2rem 2rem;
+  border: 2px solid white;
+}

@@ -6,12 +6,13 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { FaqComponent } from './faq/faq.component';
-import { BreedComponent } from './breed/breed.component';
+import { SpawnComponent } from './spawn/spawn.component';
 import { FooterComponent } from './footer/footer.component';
+import { ClaimComponent } from './claim/claim.component';
 import { MenuComponent } from './menu/menu.component';
-import { AdoptComponent } from './adopt/adopt.component';
-import { CatalogComponent } from './catalog/catalog.component';
-import { CatComponent } from './cat/cat.component';
+import { SummonComponent } from './summon/summon.component';
+import { CollectionComponent } from './collection/collection.component';
+import { MonsterComponent } from './monster/monster.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,13 @@ import { CatComponent } from './cat/cat.component';
     HomeComponent,
     HeaderComponent,
     FaqComponent,
-    BreedComponent,
+    SpawnComponent,
     FooterComponent,
+    ClaimComponent,
     MenuComponent,
-    AdoptComponent,
-    CatalogComponent,
-    CatComponent
+    SummonComponent,
+    CollectionComponent,
+    MonsterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+.mon-item-holder {
+  margin-top: 1rem;
+}
+
+.mon-item {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem 1.5rem;
+}
+
+.mon-item a {
+  text-decoration: none;
+}

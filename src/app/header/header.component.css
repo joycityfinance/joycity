@@ -35,7 +35,7 @@
 .navbar a {
   text-decoration: none;
   padding: 0.5rem 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   background-color: var(--dark-gray);

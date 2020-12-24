@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="header centered"><span class="cursed-text">Collect</span> your idols</div>
+  <div class="mon-item-holder">
+    <div class="mon-item" *ngFor="let m of monList">
+      <a routerLink="/mon/{{m.id}}" routerLinkActive="active">{{m.name}}</a>
+    </div>
+  </div>
+</div>

@@ -65,12 +65,13 @@ img {
   -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 
-.disabledtrue {
-  background-color: var(--dark-gray) !important;
-  cursor: unset;
+button:disabled,
+button[disabled]{
+  background-color: var(black) !important;
   color: var(--gray) !important;
   cursor: not-allowed;
   pointer-events: none;
+  border: none !important;
 }
 
 .container {

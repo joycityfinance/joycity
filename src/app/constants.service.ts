@@ -6,23 +6,23 @@ import { Injectable } from '@angular/core';
 export class ConstantsService {
   
   PRECISION = 1e18;
-  MILK_SCALING = 1e21;
+  DOOM_SCALING = 1e21;
 
   // Mainnet address
   CLAIMER_ADDRESS = '0xe354AC0bB78a8013617fe0efA6099769749F027C';
-  S3_URL = 'https://tomcatcity.herokuapp.com/';
-  API_URL = 'https://tomcatcity.herokuapp.com/cats/';
+  S3_URL = 'https://d3h0sbhg72k3qr.cloudfront.net/';
+  API_URL = 'https://yflambda.herokuapp.com/mons/';
 
   // new stuff (rinkeby network for now) (note you have to change chainId in web3Enabled)
-  TCAT_ADDRESS = '0x742f6aACd9e556536FFF34f90f885b2be65615ca';
-  CAT_MINTER_ADDRESS = '0x57F6c527BfBF9bF28B1bA1bb8bFBa9fE8e7A6C54';
-  CAT_STAKER_ADDRESS = '0xF81d6EBAE82b429Dcf0b29fddC4d17538Ac0EAD8';
-  CAT_BREEDER_ADDRESS = '0x5D13E1dE2770d754b1943296Eed94873988f03F1';
+  XMON_ADDRESS = '0x8dc2f7D19217245b117aEBa0f1D050c9e85c7767';
+  MON_MINTER_ADDRESS = '0x9683D905cAa55743ac63c464C34053B0b219Cc8D';
+  MON_STAKER_ADDRESS = '0xF81d6EBAE82b429Dcf0b29fddC4d17538Ac0EAD8';
+  MON_SPAWNER_ADDRESS = '0x39D327150ff6F7D59F6BB698895CbFAD2c4816C2';
 
-  MULTICALL_ADDRESS = '0xB5d18FA2712e2d37133E41BB09f1E44b47Fe6f46';
-  NFT_AGGREGATOR_ADDRESS = '0x32617D23A72DC3f69b8F4b30D31525E72af42C48';
+  MULTICALL_ADDRESS = '0x42Ad527de7d4e9d9d011aC45B31D8551f8Fe9821';
+  NFT_AGGREGATOR_ADDRESS = '0x03Cb9a56c5F7Ce6796562730E3D217B1F4Dd428b';
 
   // Mainnet address
   LP_POOL_REWARDS_ADDRESS = '0x57Ffef72352f285a9477293d35Bacc9C6667eEBf';
-  // need to change this to LP pool address
+  // probably need to change this b/c I picked the wrong number for duration
 }
